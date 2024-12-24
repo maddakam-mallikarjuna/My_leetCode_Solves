@@ -2,6 +2,7 @@
 
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
+        # Time Complexity: O(numRows ^ 2)	# Space Complexity: O(numRows ^ 2)
         # Initialize the result with the first row of Pascal's triangle.
         finalNums = [[1]]
         
@@ -19,4 +20,3 @@ class Solution:
             finalNums.append(newRow)
         
         return finalNums
-        # Time Complexity: O(numRows ^ 2)	# Space Complexity: O(numRows ^ 2)
