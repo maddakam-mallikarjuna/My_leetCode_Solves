@@ -1,6 +1,4 @@
 # My solution for this Problem....
-
-
 class Solution:
     def maxScoreSightseeingPair(self, values: List[int]) -> int:
         # Time Complexity: O(n)      # Space Complexity: O(1)
