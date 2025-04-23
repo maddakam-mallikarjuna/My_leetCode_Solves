@@ -1,5 +1,4 @@
 # My solution for this Problem....
-
 class Solution:
     # Time Complexity: O(n)      # Space Complexity: O(1)
     def removeElement(self, nums: List[int], val: int) -> int:
